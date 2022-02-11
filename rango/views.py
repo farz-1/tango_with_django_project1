@@ -28,7 +28,7 @@ def index(request):
 
 
 def about(request):
-    context_dict = {'name': 'Andras Bodrogai'}
+    context_dict = {'name': 'Farzwan Mohamed'}
     if request.session.test_cookie_worked():
         print("TEST COOKIE WORKED!")
         request.session.delete_test_cookie()
